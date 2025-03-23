@@ -23,7 +23,6 @@ try:
     thread_lock = threading.Lock()
 except Exception as e:
     print(e)
-    sys.exit(1)
 
 activated_accounts = 0
 
